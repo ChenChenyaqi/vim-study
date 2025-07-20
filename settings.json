@@ -19,6 +19,16 @@
         "g",
         "_"
       ]
+    },
+    {
+      "before": [
+        "a",
+        "i"
+      ],
+      "after": [
+        "a",
+        "I"
+      ]
     }
   ],
   "vim.operatorPendingModeKeyBindingsNonRecursive": [
@@ -83,6 +93,16 @@
       "after": [
         "5",
         "k"
+      ]
+    },
+    {
+      "before": [
+        "a",
+        "i"
+      ],
+      "after": [
+        "a",
+        "I"
       ]
     }
   ],
@@ -167,5 +187,34 @@
         "C"
       ]
     },
+    {
+      "before": [
+        "<Leader>",
+        "d",
+        "f"
+      ],
+      "after": [
+        "V",
+        "$",
+        "%",
+        "d"
+      ]
+    },
+    {
+      "before": [
+        "<Leader>",
+        "d",
+        "d",
+        "f"
+      ],
+      "after": [
+        "V",
+        "$",
+        "%",
+        "$",
+        "%",
+        "d"
+      ]
+    }
   ],
 }

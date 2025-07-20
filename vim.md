@@ -285,3 +285,17 @@
 - 窗口切换
   - shift + 方向键 (需要改 vscode 快捷键)
   - 没改键的话用 shift + ctrl+ jkhl
+
+### 删除函数
+
+- % 匹配括号（小括号 大括号 花括号 中括号）
+
+#### vim indent object
+
+- vii 基于缩缩进中里面的代码
+- vaI(i 改键映射) 基于缩进选中代码，包括花括号
+
+#### 删除函数的方式
+
+- daI(i 改键映射) 基于 wim indent object 在函数内删除函数
+- V$%d(改键 \<leader> df) 在函数行处删除函数

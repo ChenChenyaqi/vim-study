@@ -1,3 +1,4 @@
+// 将键绑定放在此文件中以覆盖默认值
 [
   {
     "key": "ctrl+[Backquote]",
@@ -8,7 +9,7 @@
     "command": "workbench.action.splitEditorUp"
   },
   {
-    "key": "shift+h",
+    "key": "shift+left",
     "command": "vim.remap",
     "when": "vim.mode === 'Normal'",
     "args": {
@@ -19,7 +20,7 @@
     }
   },
   {
-    "key": "shift+l",
+    "key": "shift+right",
     "command": "vim.remap",
     "when": "vim.mode === 'Normal'",
     "args": {
@@ -30,7 +31,7 @@
     }
   },
   {
-    "key": "shift+k",
+    "key": "shift+up",
     "command": "vim.remap",
     "when": "vim.mode === 'Normal'",
     "args": {
@@ -41,7 +42,7 @@
     }
   },
   {
-    "key": "shift+j",
+    "key": "shift+down",
     "command": "vim.remap",
     "when": "vim.mode === 'Normal'",
     "args": {
