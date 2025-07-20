@@ -215,6 +215,46 @@
         "%",
         "d"
       ]
+    },
+    {
+      "before": [
+        "<Leader>",
+        "f",
+        "d"
+      ],
+      "commands": [
+        "editor.action.formatDocument"
+      ]
+    },
+    {
+      "before": [
+        "<Leader>",
+        "r",
+        "n"
+      ],
+      "commands": [
+        "editor.action.rename"
+      ]
+    },
+    {
+      "before": [
+        "<Leader>",
+        "["
+      ],
+      "commands": [
+        {
+          "command": "editor.fold",
+        },
+        {
+          "command": "vim.remap",
+          "args": {
+            "after": [
+              "$",
+              "%"
+            ]
+          }
+        }
+      ]
     }
   ],
 }
