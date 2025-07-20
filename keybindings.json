@@ -1,0 +1,54 @@
+[
+  {
+    "key": "ctrl+[Backquote]",
+    "command": "workbench.action.terminal.new"
+  },
+  {
+    "key": "ctrl+cmd+\\",
+    "command": "workbench.action.splitEditorUp"
+  },
+  {
+    "key": "shift+h",
+    "command": "vim.remap",
+    "when": "vim.mode === 'Normal'",
+    "args": {
+      "after": [
+        "<c-w>",
+        "h"
+      ],
+    }
+  },
+  {
+    "key": "shift+l",
+    "command": "vim.remap",
+    "when": "vim.mode === 'Normal'",
+    "args": {
+      "after": [
+        "<c-w>",
+        "l"
+      ],
+    }
+  },
+  {
+    "key": "shift+k",
+    "command": "vim.remap",
+    "when": "vim.mode === 'Normal'",
+    "args": {
+      "after": [
+        "<c-w>",
+        "k"
+      ],
+    }
+  },
+  {
+    "key": "shift+j",
+    "command": "vim.remap",
+    "when": "vim.mode === 'Normal'",
+    "args": {
+      "after": [
+        "<c-w>",
+        "j"
+      ],
+    }
+  }
+]

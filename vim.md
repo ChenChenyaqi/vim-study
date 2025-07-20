@@ -258,3 +258,30 @@
 ### 悬浮显示
 
 - gh 类似鼠标的 hover，可以用来显示报错信息/函数提示
+
+### 窗口管理
+
+- 新建窗口
+  - 左右 Ctrl+w v
+  - 上下 Ctrl+w s
+- 窗口切换
+  - Ctrl+w hjkl
+  - Ctrl+w w 两个窗口来回切换
+- 关闭窗口
+  - Ctrl+w c
+- 只保留当前窗口，关闭其他窗口
+  - Ctrl+w o
+
+扩展
+
+利用 vscode 的自定义快捷键
+
+- 新建窗口
+  - Command + \ (左右新建)
+  - Command + ctrl + \ (上下新建)
+- 关闭窗口
+  - Command + w (关闭当前窗口，仅页签)
+  - Command + k + w (关闭当前窗口)
+- 窗口切换
+  - shift + 方向键 (需要改 vscode 快捷键)
+  - 没改键的话用 shift + ctrl+ jkhl
