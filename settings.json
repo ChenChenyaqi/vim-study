@@ -1,0 +1,171 @@
+{
+  "vim.easymotion": true,
+  "vim.sneak": true,
+  "vim.leader": "<Space>",
+  "vim.operatorPendingModeKeyBindings": [
+    {
+      "before": [
+        "H"
+      ],
+      "after": [
+        "^"
+      ]
+    },
+    {
+      "before": [
+        "L"
+      ],
+      "after": [
+        "g",
+        "_"
+      ]
+    }
+  ],
+  "vim.operatorPendingModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "f"
+      ],
+      "after": [
+        "z"
+      ]
+    },
+    {
+      "before": [
+        "F"
+      ],
+      "after": [
+        "Z"
+      ]
+    },
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "f"
+      ],
+      "after": [
+        "s"
+      ]
+    },
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [
+        "H"
+      ],
+      "after": [
+        "^"
+      ]
+    },
+    {
+      "before": [
+        "L"
+      ],
+      "after": [
+        "g",
+        "_"
+      ]
+    },
+    {
+      "before": [
+        "J"
+      ],
+      "after": [
+        "5",
+        "j"
+      ]
+    },
+    {
+      "before": [
+        "K"
+      ],
+      "after": [
+        "5",
+        "k"
+      ]
+    }
+  ],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "H"
+      ],
+      "after": [
+        "^"
+      ]
+    },
+    {
+      "before": [
+        "L"
+      ],
+      "after": [
+        "g",
+        "_"
+      ]
+    },
+    {
+      "before": [
+        "J"
+      ],
+      "after": [
+        "5",
+        "j"
+      ]
+    },
+    {
+      "before": [
+        "K"
+      ],
+      "after": [
+        "5",
+        "k"
+      ]
+    },
+    {
+      "before": [
+        "f"
+      ],
+      "after": [
+        "s"
+      ]
+    },
+    {
+      "before": [
+        "F"
+      ],
+      "after": [
+        "S"
+      ]
+    },
+    {
+      "before": [
+        "s"
+      ],
+      "after": [
+        "c",
+        "l"
+      ]
+    },
+    {
+      "before": [
+        "S"
+      ],
+      "after": [
+        "^",
+        "C"
+      ]
+    },
+  ],
+}
