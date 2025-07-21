@@ -2,6 +2,7 @@
   "vim.easymotion": true,
   "vim.sneak": true,
   "vim.leader": "<Space>",
+  "vim.hlsearch": true,
   "vim.operatorPendingModeKeyBindings": [
     {
       "before": [
