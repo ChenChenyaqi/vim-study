@@ -256,6 +256,26 @@
           }
         }
       ]
-    }
+    },
+    {
+      "before": [
+        "<Leader>",
+        "n",
+        "f"
+      ],
+      "commands": [
+        "explorer.newFile"
+      ],
+    },
+    {
+      "before": [
+        "<Leader>",
+        "n",
+        "d"
+      ],
+      "commands": [
+        "explorer.newFolder"
+      ],
+    },
   ],
 }
