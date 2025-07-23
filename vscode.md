@@ -101,3 +101,29 @@
 
 - option + ctrl + backspace
 - option + backspace
+
+### 搞定 git
+
+打开 git 管理面板
+
+- \<Leader> + g + g
+
+Stage change
+
+- \<Leader> + g + s
+
+commit
+
+- \<Leader> + g + c
+
+diff
+
+- \<Leader> + g + d + f
+
+Unstage change
+
+- \<Leader> + g + u
+
+Discard change
+
+- \<Leader> + g + c + l
