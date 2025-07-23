@@ -50,6 +50,10 @@
 
 - command + shift + w
 
+显示/隐藏资源管理器
+
+- command + b
+
 ### vscode 搜索
 
 全局搜索：
@@ -57,6 +61,10 @@
 - command + shift + f
 - command + 方向键 上下切换
 - command + shift + j 打开替换模式
+
+搜索文件
+
+- command + p
 
 搜索变量/函数
 
