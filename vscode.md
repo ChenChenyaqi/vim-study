@@ -143,3 +143,16 @@ Discard All change
 Refresh change
 
 - \<Leader> + g + c + l
+
+### vscode 重构插件
+
+Abracadabra
+
+- command + .
+
+hocus pocus(找不到了)
+
+- 创建变量 Leader + v + v
+- 创建函数 Leader + f + f
+
+javascript booster
