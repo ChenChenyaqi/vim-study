@@ -6,7 +6,7 @@
 
 切换 editor 区域
 
-- ctrl + ,
+- ctrl + '
 
 ### 文件操作
 
