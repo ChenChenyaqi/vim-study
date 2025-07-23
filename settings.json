@@ -137,6 +137,14 @@
       "commands": ["git.openChange"]
     },
     {
+      "before": ["<Leader>", "g", "r"],
+      "commands": ["git.refresh"]
+    },
+    {
+      "before": ["<Leader>", "g", "c", "a"],
+      "commands": ["git.cleanAll"]
+    },
+    {
       "before": ["<Leader>", "g", "c", "l"],
       "commands": ["git.clean"]
     },
@@ -145,12 +153,20 @@
       "commands": ["workbench.view.scm"]
     },
     {
+      "before": ["<Leader>", "g", "s", "a"],
+      "commands": ["git.stageAll"]
+    },
+    {
       "before": ["<Leader>", "g", "s"],
       "commands": ["git.stage"]
     },
     {
       "before": ["<Leader>", "g", "c"],
       "commands": ["git.commit"]
+    },
+    {
+      "before": ["<Leader>", "g", "u", "a"],
+      "commands": ["git.unstageAll"]
     },
     {
       "before": ["<Leader>", "g", "u"],

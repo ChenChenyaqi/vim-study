@@ -112,6 +112,10 @@ Stage change
 
 - \<Leader> + g + s
 
+Stage All change
+
+- \<Leader> + g + s + a
+
 commit
 
 - \<Leader> + g + c
@@ -124,6 +128,18 @@ Unstage change
 
 - \<Leader> + g + u
 
+Unstage All change
+
+- \<Leader> + g + u + a
+
 Discard change
+
+- \<Leader> + g + c + l
+
+Discard All change
+
+- \<Leader> + g + c + a
+
+Refresh change
 
 - \<Leader> + g + c + l
