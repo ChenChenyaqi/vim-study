@@ -95,6 +95,10 @@
       "after": ["^", "C"]
     },
     {
+      "before": ["<Leader>", ";"],
+      "commands": ["vspacecode.space"]
+    },
+    {
       "before": ["<Leader>", "d", "f"],
       "after": ["V", "$", "%", "d"]
     },

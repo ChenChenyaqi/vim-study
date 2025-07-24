@@ -42,10 +42,7 @@
     "command": "vim.remap",
     "when": "vim.mode === 'Normal'",
     "args": {
-      "after": [
-        "<c-w>",
-        "h"
-      ],
+      "after": ["<c-w>", "h"]
     }
   },
   {
@@ -53,10 +50,7 @@
     "command": "vim.remap",
     "when": "vim.mode === 'Normal'",
     "args": {
-      "after": [
-        "<c-w>",
-        "l"
-      ],
+      "after": ["<c-w>", "l"]
     }
   },
   {
@@ -64,10 +58,7 @@
     "command": "vim.remap",
     "when": "vim.mode === 'Normal'",
     "args": {
-      "after": [
-        "<c-w>",
-        "k"
-      ],
+      "after": ["<c-w>", "k"]
     }
   },
   {
@@ -75,10 +66,18 @@
     "command": "vim.remap",
     "when": "vim.mode === 'Normal'",
     "args": {
-      "after": [
-        "<c-w>",
-        "j"
-      ],
+      "after": ["<c-w>", "j"]
     }
+  }, // Trigger vspacecode in empty editor group
+  {
+    "key": "space",
+    "command": "vspacecode.space",
+    "when": "activeEditorGroupEmpty && focusedView == '' && !whichkeyActive && !inputFocus"
+  },
+  // Trigger vspacecode when sidebar is in focus
+  {
+    "key": "space",
+    "command": "vspacecode.space",
+    "when": "sideBarFocus && !inputFocus && !whichkeyActive"
   }
 ]

@@ -156,3 +156,8 @@ hocus pocus(找不到了)
 - 创建函数 Leader + f + f
 
 javascript booster
+
+### VSpaceCode 插件
+
+- vim 中打开 VSpaceCode： Leader + ;
+- 其他窗口打开 VSpaceCode：space 空格
