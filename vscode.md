@@ -198,3 +198,37 @@ javascript booster
 打开外部终端
 
 - shift + command + c（需配置）
+
+### vscode debugger
+
+start
+
+- f5
+
+stop
+
+- shift + f5
+
+restart
+
+- shift + command + 0 (改键)
+  workbench.action.debug.restart
+
+打断点
+
+- shift + command + 9 (改键)
+  editor.debug.action.toggleBreakpoint
+
+stop overt
+
+- command + ' (改键)
+  workbench.action.debug.stepOver
+
+step into
+
+- shift + command + ' (改键)
+  workbench.action.debug.stepInto
+
+step out
+
+- f5
