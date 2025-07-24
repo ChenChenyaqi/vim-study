@@ -161,3 +161,36 @@ javascript booster
 
 - vim 中打开 VSpaceCode： Leader + ;
 - 其他窗口打开 VSpaceCode：space 空格
+
+### vscode 终端
+
+打开终端
+
+- ctrl + , (改键)
+
+清空终端
+
+- command + k
+
+分屏
+
+- command + \
+
+分屏切换
+
+- command + [ or ]（改键）
+  workbench.action.terminal.focusNextPane
+
+关闭
+
+- shift + alt + q（改键）
+  workbench.action.terminal.kill
+
+新建
+
+- shift + alt + n（改键）
+  workbench.action.terminal.new
+
+窗口切换
+
+- shift + command + [ or ]
