@@ -99,6 +99,14 @@
       "after": ["V", "$", "%", "d"]
     },
     {
+      "before": ["<Leader>", "d", "p"],
+      "after": ["d", "W", "d", "W"]
+    },
+    {
+      "before": ["<Leader>", "c", "b"],
+      "after": ["V", "$", "%", "y"]
+    },
+    {
       "before": ["<Leader>", "d", "d", "f"],
       "after": ["V", "$", "%", "$", "%", "d"]
     },
