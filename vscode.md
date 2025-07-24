@@ -194,3 +194,7 @@ javascript booster
 窗口切换
 
 - shift + command + [ or ]
+
+打开外部终端
+
+- shift + command + c（需配置）

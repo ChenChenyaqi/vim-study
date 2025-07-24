@@ -1,4 +1,5 @@
 {
+  "terminal.external.osxExec": "iTerm.app",
   "vim.easymotion": true,
   "vim.sneak": true,
   "vim.leader": "<Space>",
