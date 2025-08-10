@@ -56,12 +56,6 @@
       "after": ["a", "I"]
     }
   ],
-  "vim.insertModeKeyBindings": [
-    {
-      "before": ["j", "j"],
-      "after": ["<Esc>"]
-    }
-  ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": ["H"],
